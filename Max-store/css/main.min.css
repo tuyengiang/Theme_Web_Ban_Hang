@@ -1,0 +1,88 @@
+*{
+	margin:0;padding:0;font-family:roboto,arial;
+}
+body{
+	width:100%;height:50px;background:white;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style-type:none;
+}
+
+/**top**/
+.header-top{
+	position:fixed;z-index:10000000000;
+	width:100%;height:50px;background:#333;
+}
+.logo{
+	width:10%;height:40px;padding-top:5px;
+}
+.logo-center{width:90%;height:50px;padding-left:30px;}
+.logo img{
+	width:90%;height:40px;margin:auto;
+}
+
+/**main**/
+.main{
+	width:100%;background:#eeeeee;
+}
+.main-right,.main-left{float:left;}
+
+/**main-lèt**/
+
+.main-left{position:fixed;z-index:1000000000;width:16%;background:#333;height:1000px;}
+.main-left h1{
+	width:100%;height:50px;line-height:50px;font-size:18px;color:white;text-align:center;
+}
+.main-left li{
+	width:100%;height:40px;position:relative;
+}
+.main-left li a{
+	display:block;
+	line-height:40px; color:#ddd;
+}
+.main-left li a:hover{
+	background:rgba(255,255,255,0.4);
+}
+.main-left li i{
+	float:left;line-height:40px;
+	width:20%;
+	text-align:center;color:#ddd;
+}
+.main-left li > .sub-menu{
+	display:none;
+	position:absolute;
+	z-index:10000000000000;
+	top:0;
+	left:100%;
+	width:250px;
+}
+.main-left li:hover .sub-menu{
+	display:block;
+}
+.sub-menu{
+	width:16%;
+	background:#333;
+}
+/**main-right**/
+.main-right{
+	width:80%;
+	float:left;
+	margin:60px 0 0 17%;
+}
+.main-right-left{
+	float:left;
+	width:70%;
+}
+.main-right-right{
+	float:left;
+	width:28%;
+	height:1000px;
+	margin-left:10px;
+}
+/****/
+textarea{
+	width:100%;
+}
